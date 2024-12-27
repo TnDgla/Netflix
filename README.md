@@ -112,7 +112,7 @@ This project is structured to ensure a systematic and incremental development pr
      - **Video:** [React.js Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
   2. Build the basic layout for the homepage, login, and movie browsing pages.
      - **Reading:** [Bootstrap Components](https://getbootstrap.com/docs/5.0/components/alerts/)
-     - **Video:** [Bootstrap Crash Course](https://www.youtube.com/watch?v=hnCmSXCZEpU)
+     - **Video:** [Bootstrap Crash Course](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
 - **Deliverables:**
   - Responsive UI with basic navigation and placeholders for movie components.
@@ -132,7 +132,7 @@ This project is structured to ensure a systematic and incremental development pr
      - **Video:** [JWT Authentication Guide](https://www.youtube.com/watch?v=mbsmsi7l3r4)
   3. Create login and signup forms in React.
      - **Reading:** [React Forms](https://reactjs.org/docs/forms.html)
-     - **Video:** [React Form Tutorial](https://www.youtube.com/watch?v=5Y4STV8bnK4)
+     - **Video:** [React Form Tutorial](https://www.youtube.com/watch?v=SdzMBWT2CDQ&t=590s)
 
 - **Deliverables:**
   - Functional login/signup system with secure authentication.
@@ -149,7 +149,7 @@ This project is structured to ensure a systematic and incremental development pr
      - **Video:** [Building REST APIs](https://www.youtube.com/watch?v=pKd0Rpw7O48)
   2. Implement search and filter features.
      - **Reading:** [React State Management](https://reactjs.org/docs/hooks-state.html)
-     - **Video:** [React Search Bar Tutorial](https://www.youtube.com/watch?v=OlVkYnVXPl0)
+     - **Video:** [React State Tutorial](https://www.youtube.com/watch?v=-bEzt5ISACA&t=465s)
 
 - **Deliverables:**
   - Functional movie browsing with search and filter capabilities.
@@ -166,7 +166,7 @@ This project is structured to ensure a systematic and incremental development pr
      - **Video:** [React Router Tutorial](https://www.youtube.com/watch?v=Law7wfdg_ls)
   2. Add video player functionality for trailers.
      - **Reading:** [React Player Docs](https://github.com/cookpete/react-player)
-     - **Video:** [React Video Player Guide](https://www.youtube.com/watch?v=7sDY4m8KNLc)
+     - **Video:** [React Video Player Guide](https://www.youtube.com/watch?v=iu-LBY7NXD4&t=8s)
 
 - **Deliverables:**
   - Movie details page with working trailers.
@@ -183,7 +183,7 @@ This project is structured to ensure a systematic and incremental development pr
      - **Video:** [Postman Tutorial](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
   2. Deploy the frontend and backend to Vercel and Heroku.
      - **Reading:** [Deploying MERN Apps](https://vercel.com/docs)
-     - **Video:** [MERN Deployment Guide](https://www.youtube.com/watch?v=KKyag6t98g8)
+     - **Video:** [MERN Deployment Guide](https://www.youtube.com/watch?v=22Rywce_kcg&t=127s)
 
 - **Deliverables:**
   - Fully deployed and functional Netflix Clone accessible via a public URL.
