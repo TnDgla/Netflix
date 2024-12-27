@@ -1,71 +1,208 @@
-<h1 align="center">MERN Netflix Clone 🎬</h1>
+### **Project Name: Netflix Clone**
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+**Netflix Clone** is a full-stack web application built with the MERN (MongoDB, Express, React, Node.js) stack, designed to replicate the functionality and user experience of Netflix. This project incorporates features like user authentication, dynamic movie browsing, and responsive design.
 
-[Video Tutorial on Youtube](https://youtu.be/0Kzd4k1YuCA)
+---
 
-About This Course:
+### **Mission and Objectives**
 
--   ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind
--   🔐 Authentication with JWT
--   📱 Responsive UI
--   🎬 Fetch Movies and Tv Show
--   🔎 Search for Actors and Movies
--   🎥 Watch Trailers
--   🔥 Fetch Search History
--   🐱‍👤 Get Similar Movies/Tv Shows
--   💙 Awesome Landing Page
--   🌐 Deployment
--   🚀 And Many More Cool Features
--   ✅ This is a lot of work. Support my work by subscribing to the [Channel](https://www.youtube.com/@asaprogrammer_)
+---
 
-### Setup .env file
+### **Mission:**
+To create a Netflix-like streaming platform, allowing users to explore, search, and watch content dynamically.
 
-```bash
-PORT=5000
-MONGO_URI=your_mongo_uri
-NODE_ENV=development
-JWT_SECRET=your_jwt_secre
-TMDB_API_KEY=your_tmdb_api_key
-```
+---
 
-### Run this app locally
+### **Objectives:**
 
-```shell
-npm run build
-```
+1. **User Authentication:**
+   - Secure login and signup using JWT (JSON Web Tokens).
+   - Persistent sessions with secure cookies.
 
-### Start the app
+2. **Movie and TV Show Management:**
+   - Fetch movie details dynamically using external APIs.
+   - Display trending, popular, top-rated, and upcoming movies.
 
-```shell
-npm run start
-```
+3. **Search and Filter:**
+   - Search by movie, TV show, or actor.
+   - Implement filters for sorting content.
 
-## `Timestamps` for your convenience:
+4. **Responsive Design:**
+   - Ensure the application is fully responsive for various devices.
 
--   00:00:00 - App Showcase
--   00:07:50 - Backend Setup
--   00:23:00 - Database (MongoDB) Setup
--   00:35:54 - Signup Logic in Backend
--   00:54:26 - Generate JWT
--   01:02:40 - Logout Logic in Backend
--   01:04:30 - Login Logic in Backend
--   01:08:30 - A Quick Recap
--   01:11:25 - Fetching Movies From API
--   01:42:00 - Fetchin TV Shows From API
--   01:48:50 - Protecting Routes (Middleware)
--   01:59:15 - Search Routes
--   02:28:52 - Frontend Setup
--   02:41:45 - Signup Page and Login Page UI Design
--   02:55:25 - Auth Screen UI Design
--   03:28:30 - Signup, Login, Logout Functionality
--   04:03:45 - Building the Home Screen
--   05:13:00 - Building the Watch Page
--   05:49:50 - Building the Search Page
--   06:05:20 - Building the Search History Page
--   06:14:55 - Building a Custom 404 Page
--   06:18:55 - Testing Our App and Small Fixes
--   06:24:40 - Detailed Deployment Guide
--   06:48:53 - Oops! I almost forgot this... bye
+5. **Deployment:**
+   - Host the application on reliable platforms for public access.
 
-### I'll see you in the next one! 🚀
+---
+
+### **Technology Stack**
+
+#### **Frontend**
+1. **React.js**
+   - **Why?**: Efficient UI library for dynamic web applications.
+   - **Use Case**: Handles the application’s user interface and state management.
+
+2. **Bootstrap**
+   - **Why?**: Predefined responsive components for rapid development.
+   - **Use Case**: Ensures a consistent and adaptive design.
+
+---
+
+#### **Backend**
+1. **Node.js**
+   - **Why?**: High-performance server-side platform.
+   - **Use Case**: Manages API requests and real-time data.
+
+2. **Express.js**
+   - **Why?**: Simplifies API creation and routing.
+   - **Use Case**: Handles RESTful services.
+
+3. **JWT**
+   - **Why?**: Secure user authentication and session management.
+   - **Use Case**: Validates user access and protects routes.
+
+---
+
+#### **Database**
+1. **MongoDB**
+   - **Why?**: NoSQL database for flexible schema design.
+   - **Use Case**: Stores user information, movie details, and search history.
+
+---
+
+#### **Deployment**
+1. **Frontend Hosting: Vercel**
+   - **Why?**: Optimized platform for React app hosting.
+   - **Use Case**: Deploys the client-side application.
+
+2. **Backend Hosting: Heroku**
+   - **Why?**: Reliable and scalable backend hosting.
+   - **Use Case**: Hosts APIs and manages database connections.
+
+---
+
+### **Workflow Overview**
+
+The application workflow involves users browsing movies and TV shows, searching for specific content, and watching trailers. Admin users can manage movie data and content categories. Authentication ensures that only authorized users can access and manage their profiles and viewing history.
+
+### **FlowChart**
+![image](https://github.com/user-attachments/assets/d1a39116-b29a-42c7-9469-0c3df7204e0b)
+
+---
+
+### **Project Structure for Feature Implementation**
+
+This project is structured to ensure a systematic and incremental development process. Each week builds upon the previous deliverables, enabling a smooth transition from basic to advanced functionalities.
+
+**NOTE:** Participants are encouraged to customize the design and functionality to make the application unique.
+
+---
+
+## **Week-by-Week Learning Plan**
+
+---
+
+### **Week 1: Project Setup and UI Design**
+
+- **Goal:** Set up the foundational structure and design the app UI.
+
+- **Tasks:**
+  1. Initialize a **React.js** project with Bootstrap.
+     - **Reading:** [React.js Official Docs](https://reactjs.org/docs/getting-started.html)
+     - **Video:** [React.js Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
+  2. Build the basic layout for the homepage, login, and movie browsing pages.
+     - **Reading:** [Bootstrap Components](https://getbootstrap.com/docs/5.0/components/alerts/)
+     - **Video:** [Bootstrap Crash Course](https://www.youtube.com/watch?v=hnCmSXCZEpU)
+
+- **Deliverables:**
+  - Responsive UI with basic navigation and placeholders for movie components.
+
+---
+
+### **Week 2: User Authentication**
+
+- **Goal:** Implement secure user authentication.
+
+- **Tasks:**
+  1. Set up user schema with Mongoose.
+     - **Reading:** [MongoDB Schema Design](https://mongoosejs.com/docs/guide.html)
+     - **Video:** [Mongoose Models Tutorial](https://www.youtube.com/watch?v=DZBGEVgL2eE&t=30s)
+  2. Build authentication APIs using JWT.
+     - **Reading:** [JWT Basics](https://jwt.io/introduction/)
+     - **Video:** [JWT Authentication Guide](https://www.youtube.com/watch?v=mbsmsi7l3r4)
+  3. Create login and signup forms in React.
+     - **Reading:** [React Forms](https://reactjs.org/docs/forms.html)
+     - **Video:** [React Form Tutorial](https://www.youtube.com/watch?v=5Y4STV8bnK4)
+
+- **Deliverables:**
+  - Functional login/signup system with secure authentication.
+
+---
+
+### **Week 3: Movie Browsing and Search**
+
+- **Goal:** Develop movie browsing and search functionality.
+
+- **Tasks:**
+  1. Create APIs for fetching movies and TV shows dynamically.
+     - **Reading:** [RESTful API Design](https://restfulapi.net/)
+     - **Video:** [Building REST APIs](https://www.youtube.com/watch?v=pKd0Rpw7O48)
+  2. Implement search and filter features.
+     - **Reading:** [React State Management](https://reactjs.org/docs/hooks-state.html)
+     - **Video:** [React Search Bar Tutorial](https://www.youtube.com/watch?v=OlVkYnVXPl0)
+
+- **Deliverables:**
+  - Functional movie browsing with search and filter capabilities.
+
+---
+
+### **Week 4: Movie Details and Trailers**
+
+- **Goal:** Build a detailed movie page with trailers and related content.
+
+- **Tasks:**
+  1. Display movie details fetched from APIs.
+     - **Reading:** [React Router](https://reactrouter.com/en/main)
+     - **Video:** [React Router Tutorial](https://www.youtube.com/watch?v=Law7wfdg_ls)
+  2. Add video player functionality for trailers.
+     - **Reading:** [React Player Docs](https://github.com/cookpete/react-player)
+     - **Video:** [React Video Player Guide](https://www.youtube.com/watch?v=7sDY4m8KNLc)
+
+- **Deliverables:**
+  - Movie details page with working trailers.
+
+---
+
+### **Week 5: Deployment and Testing**
+
+- **Goal:** Deploy the application and ensure it’s production-ready.
+
+- **Tasks:**
+  1. Test all features using Postman and React Testing Library.
+     - **Reading:** [Testing REST APIs](https://www.postman.com/api-testing/)
+     - **Video:** [Postman Tutorial](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+  2. Deploy the frontend and backend to Vercel and Heroku.
+     - **Reading:** [Deploying MERN Apps](https://vercel.com/docs)
+     - **Video:** [MERN Deployment Guide](https://www.youtube.com/watch?v=KKyag6t98g8)
+
+- **Deliverables:**
+  - Fully deployed and functional Netflix Clone accessible via a public URL.
+
+---
+### Screenshots
+![Screenshot (459)](https://github.com/user-attachments/assets/8b089074-a022-4a66-aaf7-57fcf0514083)
+![Screenshot (460)](https://github.com/user-attachments/assets/df8e738d-e74f-470e-b233-2238f8f02355)
+![Screenshot (461)](https://github.com/user-attachments/assets/bade8f0a-4f7c-436e-baea-13a6f8ba398c)
+![Screenshot (462)](https://github.com/user-attachments/assets/3775703c-2126-4889-9168-c8bcc6e04c1c)
+![Screenshot (463)](https://github.com/user-attachments/assets/3ba4e8c5-f864-4885-a67d-048c806c47d8)
+![Screenshot (458)](https://github.com/user-attachments/assets/2b5ac704-9fc9-4ef6-bb8d-c99c3dc6e81c)
+
+---
+
+### **References**
+1. [React Documentation](https://reactjs.org/docs/getting-started.html)
+2. [MongoDB Documentation](https://www.mongodb.com/docs/manual/)
+3. [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+4. [JWT Documentation](https://jwt.io/introduction/)
+5. https://www.youtube.com/watch?v=gRroBZczKAU
+6. https://github.com/burakorkmez/mern-netflix-clone
